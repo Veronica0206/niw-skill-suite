@@ -1,6 +1,6 @@
 # Field Alignment Reference
 
-**Last updated:** 2025
+**Last updated:** March 2026
 **Rule:** Technology labels (AI, ML, data science, blockchain, cloud) are METHODS.
 Strip them. Evaluate the APPLICATION DOMAIN.
 
@@ -15,24 +15,33 @@ The answer to that question is the domain. That domain determines tier.
 
 ---
 
-## Tier 1 — NSTC / White House Explicit Priority Areas
+## Tier 1 — Bipartisan / Cross-Administration Priority Areas
 
-Full national importance standing. Strong foundation for NIW.
+Full national importance standing. Strong foundation for NIW. These domains
+have maintained priority status across administrations (Obama → Trump → Biden → Trump).
 
 | Domain | Examples |
 |---|---|
-| Semiconductor / Microelectronics | Chip design, fab yield, supply chain |
+| Semiconductor / Microelectronics | Chip design, fab yield, supply chain, onshoring |
 | Cybersecurity / Critical Infrastructure | Threat detection, grid security, network defense |
 | Biotechnology / Public Health | Disease surveillance, pandemic response, drug development |
-| Clean Energy / Climate Technology | Grid optimization, carbon capture, renewable energy |
+| Energy Security / Energy Independence | Grid optimization, renewable energy, fossil fuel technology, nuclear, LNG infrastructure, energy storage |
 | Quantum Information Science | Quantum computing, quantum networking, cryptography |
-| Advanced Manufacturing | Robotics, materials science, precision manufacturing |
-| Space Technology | Launch systems, satellite infrastructure, space medicine |
+| Advanced Manufacturing / Domestic Production | Robotics, materials science, precision manufacturing, reshoring |
+| Space Technology / Defense Technology | Launch systems, satellite infrastructure, space medicine, defense R&D, missile defense |
 | STEM Education / Workforce Pipeline | Science education, STEM access and equity |
 | Foundational AI/CS Research* | New architectures, safety alignment, training methods |
+| Critical Mineral Supply Chains | Rare earth processing, mining technology, supply chain independence |
 
 *Foundational AI only if: top venue publications (NeurIPS/ICML/ICLR/Nature/Science)
 AND cross-domain adoption evidence. "I do ML research" is not sufficient.
+
+**2025-2026 Administration Emphasis Note:** The current administration prioritizes
+domestic manufacturing, energy independence (including fossil fuels — broader than
+"clean energy" alone), national security/defense technology, and supply chain
+independence from foreign adversaries. Frame endeavors accordingly. The Biden-era
+STEM-specific executive order was rescinded, but Dhanasar remains the controlling
+standard and STEM fields remain strong — just not through executive order mandate.
 
 ---
 
@@ -49,6 +58,8 @@ Can support NIW but framing and evidence must be more rigorous.
 | Drug safety / Pharmacovigilance | Must connect to public health outcomes, not just company efficiency |
 | Education technology | Must tie to workforce outcomes, equity, or STEM pipeline |
 | Environmental monitoring / Disaster response | Must connect to public safety or infrastructure |
+| Water infrastructure / Water security | Must connect to public health or critical infrastructure |
+| Housing / Construction technology | Must connect to affordability crisis or infrastructure modernization at scale |
 
 ---
 
@@ -110,3 +121,73 @@ Consumer tutoring apps, test prep → Tier 3
 **Consumer health apps:**
 Clinical-grade tools, FDA-regulated, population health → Tier 1–2
 Wellness/fitness tracking, lifestyle → Tier 3
+
+
+---
+
+## Additional Tier 2 Domains (RFE-context additions)
+
+| Domain | Key Framing Requirement |
+|---|---|
+| Pharmacovigilance / Drug safety surveillance | Must connect to public health outcomes and national-scale patient populations, not company efficiency |
+| NLP/text analytics for clinical records | Must tie to patient safety, outcomes, or FDA reporting obligations |
+| LLM annotation / AI evaluation methodology | Must connect to AI safety, reliability, or federal AI governance initiatives |
+| Biometric / identity security systems | Must demonstrate national-scale fraud prevention or critical infrastructure protection |
+
+---
+
+## 2025-2026 Administration-Specific Framing Guidance
+
+**Stronger under current administration:**
+- Energy independence (including oil, gas, LNG, nuclear — not just renewables)
+- Domestic manufacturing and reshoring
+- Defense technology, border security technology
+- Critical mineral independence from China
+- AI safety and AI governance (bipartisan)
+
+**Weaker under current administration:**
+- "Climate change" framing alone — reframe as "energy security" or "grid resilience"
+- DEI-focused education initiatives — reframe as "workforce pipeline" or "STEM competitiveness"
+- International development focus — reframe as "U.S. economic competitiveness"
+
+**Unchanged / bipartisan:**
+- Public health, pandemic preparedness
+- Cybersecurity, critical infrastructure
+- Semiconductor independence
+- STEM research and education (framing adjusted, priority stable)
+- Drug safety, pharmaceutical innovation
+
+**Key principle:** The Dhanasar framework is administration-agnostic. But "national
+importance" is inherently policy-sensitive. Frame the same work differently
+depending on which federal priorities are active. The underlying evidence doesn't
+change — the strategic emphasis does.
+
+---
+
+## Entrepreneur-Specific Field Alignment
+
+**USCIS Policy Manual (Jan 2025) explicitly addresses entrepreneurs.**
+Not every entrepreneur qualifies. Key distinctions:
+
+- Opening a consulting firm in a shortage occupation ≠ national importance
+- General industry-level importance claims (e.g., "car dealerships contribute $X to GDP") are insufficient
+- Must show the **specific** endeavor's national impact, not the industry's
+- Entrepreneurs in Tier 1-2 domains have stronger standing but still need detailed evidence
+- Entrepreneurs in Tier 3 domains face very high burden — job creation alone is insufficient
+
+See vera-niw-entrepreneur skill for the full entrepreneur evidence framework.
+
+---
+
+## RFE-Specific Warning: Software Engineers and Data Scientists
+
+USCIS applies **heightened scrutiny** to petitioners with titles like "software engineer,"
+"data scientist," "machine learning engineer," or "AI researcher" because these
+occupations are widely available in the domestic labor market.
+
+For these petitioners:
+- The technology label ("AI," "ML," "deep learning") carries zero independent weight
+- The application domain determines everything — strip the tech label first
+- The specific named project/tool/system must be the unit of evaluation, not the role
+- A petitioner who "builds AI systems" is not an NIW petitioner until we know what
+  the AI system does, for whom, at what scale, and with what verifiable outcomes

@@ -8,7 +8,7 @@ description: >
   Input includes the proposed endeavor, the target pillar, and full details
   about the recommender and their relationship to the petitioner's work.
   Output is a signed, publication-ready reference letter in formal legal-academic
-  tone. Part of the NIW Petition Skill System.
+  tone. Part of the NIW Petition Skill System v2.0 (updated March 2026).
 ---
 
 # NIW Recommendation Letter Skill
@@ -458,6 +458,45 @@ Recommended portfolio per NIW petition:
 - 1-2 application letters (Type B) — validates real-world impact
 - 1 letter from advisor or close collaborator (affiliated, clearly labeled) — validates petitioner's role
 - 1 letter from senior practitioner (industry executive, regulator, clinician) — validates national-scale relevance
+- **1 government agency letter (if obtainable) — strongest possible evidence**
+
+### Type G — Government Agency Letter (USCIS Policy Manual)
+
+**Use when:** The petitioner has contacts at a U.S. government agency or
+quasi-governmental entity (including FFRDCs like national labs, federally
+funded research centers) whose mission aligns with the proposed endeavor.
+
+**Why this matters:** The USCIS Policy Manual explicitly identifies government
+agency letters as "helpful evidence" relevant to **all three prongs**:
+- **Prong 1:** Agency demonstrates expertise in the endeavor area, establishes
+  the endeavor advances critical/emerging technology, shows importance for U.S.
+  technological prominence
+- **Prong 2:** Detailed explanation of how the petitioner is well-positioned;
+  "particularly valuable when demonstrating positioning"
+- **Prong 3:** Explains urgency, details U.S. benefits despite available workers;
+  STEM + government letter = **"especially weighty"** benefit
+
+**Best sources:** NSF program officers, NIH institute directors, DOE lab
+scientists, DOD program managers, NIST researchers, FDA reviewers, CDC
+epidemiologists, USDA scientists, or equivalent state-level officials with
+national mandate connections.
+
+**Key difference from other letter types:** Government letters carry institutional
+weight beyond the individual signer. They signal that the U.S. government itself
+has identified the petitioner's work as relevant to its mission. This is
+qualitatively different from academic or industry endorsements.
+
+**Structure guidance for government letters:**
+- Written on official agency letterhead
+- Signer's title and agency role prominently stated
+- Connect the petitioner's work to the agency's specific mission and priorities
+- Cite specific agency programs, funding initiatives, or mandates the work advances
+- Explain why the petitioner's specific approach (not just the field) matters to the agency
+- Include urgency framing: why delay through labor certification would harm the agency's mission
+
+**Note:** These letters are NOT required for NIW approval, but they substantially
+strengthen any petition and are especially valuable for STEM petitioners in
+critical/emerging technology areas.
 
 ---
 

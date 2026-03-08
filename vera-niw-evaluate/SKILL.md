@@ -7,7 +7,7 @@ description: >
   strengths and gaps with evidence scoring, and produces a structured JSON
   output consumed by downstream NIW skills (NIW_Endeavor, NIW_Pillar,
   NIW_Assemble). Always errs conservative — the NIW bar is high. Part of
-  the NIW Petition Skill System v1.0.
+  the NIW Petition Skill System v2.0 (updated March 2026).
 ---
 
 # NIW_Evaluate — Background Evaluation Skill
@@ -19,8 +19,16 @@ investing time in petition drafting. Output a clear verdict with evidence
 assessment, gap analysis, and a recommendation on how to proceed.
 
 **Default stance: conservative.** When evidence is ambiguous or thin, flag it.
-USCIS scrutiny on NIW has increased significantly. A weak petition does more
-harm than waiting.
+USCIS scrutiny on NIW has increased dramatically since FY 2024. A weak petition
+does more harm than waiting.
+
+**Approval rate context (updated FY 2025):**
+- FY 2023: 79.99% → FY 2024: **43.31%** (a 46% crash)
+- FY 2025 quarterly volatility: Q1 62.8% → Q2 67.3% → Q3 **54.0%**
+- Petition volume surged 190% from 22K (FY 2022) to 63.5K (FY 2024)
+- STEM applicants maintain ~90% approval; non-STEM faces 40-60% denial
+- USCIS workforce reductions in 2026 → longer processing times (14-19 months standard)
+- Premium processing available: $2,805 for 45 business days
 
 ---
 
@@ -76,11 +84,24 @@ Check this first. If it fails → verdict is NOT_QUALIFIED. Explain the specific
 gap and provide a concrete path to eligibility.
 
 **Advanced Degree route — confirm all:**
-- [ ] Occupation requires at least a U.S. bachelor's degree (or equivalent)
-  as a standard entry requirement — not just preferred
+- [ ] **Occupation-level analysis (Jan 2025 policy update):** The occupation
+  underlying the endeavor must require at least a U.S. bachelor's degree as a
+  **standard entry requirement** — not just preferred. USCIS now explicitly
+  reviews the occupation, not just the petitioner's credentials.
+  Examples from USCIS Policy Manual:
+  - FAILS: RN with PhD proposing nursing endeavor — standard RN positions
+    do not require advanced degrees (O*NET confirms)
+  - FAILS: Engineer with PhD starting a bakery — "baker" does not require
+    bachelor's degree for entry
+  - PASSES: Engineer with PhD proposing engineering R&D endeavor
 - [ ] Petitioner holds a relevant advanced degree (Master's, PhD, or equivalent
   foreign degree) OR a bachelor's plus 5+ years of **progressive** post-degree
   experience in the specialty
+- [ ] **Experience specialty match (tightened Jan 2025):** The 5-year post-
+  bachelor's experience must be in the **same specialty** as the proposed
+  endeavor. "Progressive experience in field unrelated to bachelor's degree
+  does not equate to advanced degree in that field." (USCIS Policy Manual)
+  - FAILS: Chemistry degree + 5 years restaurant management for chemistry endeavor
 - [ ] If claiming experience in lieu of advanced degree: experience letters must
   explicitly state **"full-time"** — USCIS now rejects letters that document
   years without this phrase
@@ -95,8 +116,30 @@ gap and provide a concrete path to eligibility.
 5. Membership in professional associations requiring outstanding achievement
 6. Recognition for achievements from peers, government, or professional organizations
 
-**Critical rule:** Exceptional ability must relate to the **same endeavor**
-as the NIW request. Mismatch = standalone RFE regardless of Dhanasar analysis.
+**Critical rule (tightened Jan 2025):** Exceptional ability must relate to the
+**same endeavor** as the NIW request, evaluated **case-by-case** based on shared
+"skillsets, knowledge, or expertise." Mismatch = standalone RFE regardless of
+Dhanasar analysis.
+
+**Two-step evidentiary analysis (from Kazarian v. USCIS, 596 F.3d 1115):**
+- Step 1: Does the evidence meet the regulatory criteria (3 of 6)?
+- Step 2: Final merits determination — evaluate ALL evidence together to assess
+  whether the petitioner demonstrates "expertise significantly above that
+  ordinarily encountered" in the field
+- **Meeting 3 of 6 criteria alone is INSUFFICIENT** — quality and caliber matter
+- Apply this two-step framework in the evaluation output
+
+**Comparable evidence provision:** When regulatory criteria don't readily apply
+to the petitioner's field, they may submit "comparable evidence" — but:
+- Must explain **why** the evidence is comparable to the listed criteria
+- General assertions that criteria don't apply are unacceptable
+- Witness letters alone are unpersuasive without corroboration
+- This is relevant for non-traditional backgrounds (entrepreneurs, artists, etc.)
+
+**Self-petition authority:** NIW allows self-petition (no employer required).
+The job offer waiver eliminates the need for an employment relationship.
+Petitioner must still submit employee-specific portions of the labor
+certification (Form ETA 9089) without DOL approval.
 
 **Membership evaluation (2024-2025 AAO guidance):**
 - Memberships must be merit-based with selection by recognized national or
@@ -185,6 +228,26 @@ reliable typical bar, not an absolute floor. Apply judgment.
 
 ---
 
+### Pathway D — Entrepreneur Track
+
+**New pathway added March 2026 per USCIS Policy Manual (Jan 2025 update).**
+If the petitioner is an entrepreneur or business founder, refer them to the
+**vera-niw-entrepreneur** skill for the full evaluation framework. Key points:
+
+- Not every entrepreneur qualifies — must show specific national impact
+- General job creation or industry-level importance claims are insufficient
+- Required evidence: ownership interest, central role, detailed implementation plan
+- Evidence categories: VC/angel investment, incubator/accelerator acceptance,
+  patents, revenue/growth, government grants, IP documentation, third-party letters
+- Standard: petitioner NOT required to show endeavor "more likely than not to succeed"
+- Opening consulting firm in shortage occupation ≠ national importance
+
+If the petitioner is primarily an entrepreneur, route to vera-niw-entrepreneur
+before continuing evaluation here. The entrepreneur skill will produce an
+evaluation that feeds back into the standard NIW pipeline.
+
+---
+
 ### Pathway C — Mixed / Hybrid Track
 
 User has some publications AND some professional experience, but neither is
@@ -222,9 +285,11 @@ For each major claim or project, assess:
 - Does the outcome demonstrate national-scale ripple effects beyond the immediate beneficiary?
 
 **If the petitioner's case lacks quantifiable outcomes entirely:** Flag this as
-a significant gap. In the current adjudication climate (~54% NIW approval rate
-in 2025), a petition without quantifiable evidence faces substantially higher
-RFE risk.
+a significant gap. In the current adjudication climate (43-67% NIW approval
+rate in FY 2024-2025, down from 80%+ historically), a petition without
+quantifiable evidence faces substantially higher RFE risk. The 2025-2026
+adjudication trend shows officers demanding concrete U.S.-focused outcomes
+over abstract societal benefit claims.
 
 ---
 
@@ -318,6 +383,37 @@ Without these, "foundational AI research" is not sufficient on its own.
 
 **If no domain can be identified at all:** Verdict is NOT_QUALIFIED on field
 alignment regardless of academic or professional strength.
+
+### STEM-Specific Positive Factors (USCIS Policy Manual)
+
+The USCIS Policy Manual gives explicit advantages to STEM petitioners:
+
+- **Prong 2:** Advanced STEM degree (especially PhD) in field tied to endeavor
+  related to critical/emerging technology = **"especially positive factor"**
+  considered alongside other evidence. Doctoral dissertations provide
+  "scientific knowledge in narrow STEM area."
+- **Prong 3:** STEM + critical/emerging tech + national importance = **"especially
+  weighty"** benefit. Even **theoretical** math/physics can qualify if tied to
+  endeavor furthering U.S. competitiveness or national security.
+- **Government agency letters** supporting STEM endeavors are explicitly noted
+  as relevant to all three prongs and provide additional positive weight.
+
+**Note (2025-2026):** The Biden-era STEM executive order was rescinded, but
+Dhanasar-based STEM advantages in the USCIS Policy Manual remain in effect.
+These are codified in policy guidance, not executive order.
+
+### Prong 1 — Explicit Exclusions (USCIS Policy Manual)
+
+The USCIS Policy Manual states the following do **NOT** satisfy Prong 1:
+
+- Classroom teaching without broader field-wide implications
+- Mere occupation shortage claims
+- Consulting in a shortage occupation (standing alone)
+- General business owner/entrepreneur assertions based solely on job creation
+- Benefits limited to specific employers
+- Startup companies without **detailed** national impact explanation
+
+Flag any endeavor that falls into these categories as a **blocking gap**.
 
 ---
 
@@ -470,10 +566,15 @@ on this assessment. Neither overpromise nor discourage unfairly.
 - **BORDERLINE/NOT_QUALIFIED roadmap:** Give a realistic timeline — months
   needed for citations to accumulate, peer reviews to complete, or objective
   evidence to become available. Reframe as a roadmap, not a rejection.
-- **2025 approval rate context:** NIW approval rates have dropped to
-  approximately 54% in 2025, while EB-1A rates remain more stable at ~74%.
-  This heightened scrutiny makes the conservative evaluation stance more
-  important than ever. Note this context when the case is BORDERLINE.
+- **2025-2026 approval rate context:** NIW approval rates crashed from 80%
+  (FY 2023) to 43% (FY 2024), with FY 2025 oscillating between 54-67% by
+  quarter. Petition volume surged 190% (22K→63.5K). STEM applicants maintain
+  ~90% approval; non-STEM faces 40-60% denial. This volatility makes
+  conservative evaluation more important than ever. Note context when BORDERLINE.
+- **Processing timeline (2026):** Standard I-140 processing: 14-19 months.
+  Premium processing: $2,805 for 45 business days. USCIS workforce reductions
+  may extend timelines further. An approved I-140 ≠ green card — India/China
+  backlog applies separately.
 - **Creative professionals / artists:** The mere act of displaying artwork,
   performing, or exhibiting creative work is NOT sufficient. The AAO requires
   evidence of significant recognition, critical acclaim, or notable audience

@@ -10,7 +10,7 @@ description: >
   and (2) three named NIW pillars with rationale, structured as direct input
   for NIW_Pillar. Both outputs are always delivered together, never omitted.
   Use even if the user already has a draft endeavor -- run the diagnostic first.
-  Part of the NIW Petition Skill System.
+  Part of the NIW Petition Skill System v2.0 (updated March 2026).
 ---
 
 # Vera NIW Endeavor
@@ -58,6 +58,14 @@ ingredient interview before drafting anything.
 User provides an existing endeavor statement. Go directly to Phase 1
 (Diagnose), score it, then proceed to Phase 2 to address what's missing.
 
+**Pathway D — Entrepreneur / Business Founder:**
+If the user is primarily an entrepreneur, startup founder, or business owner,
+route to **vera-niw-entrepreneur** first. That skill has the USCIS Policy
+Manual's entrepreneur-specific evidence framework (Jan 2025 update). The
+entrepreneur skill will produce an endeavor statement and evidence inventory
+that feeds back into the standard NIW pipeline. Only use this general
+endeavor skill for entrepreneurs after vera-niw-entrepreneur has been run.
+
 ---
 
 ## Phase 1 — Diagnose (skip if no draft exists)
@@ -99,6 +107,20 @@ Run the three USCIS failure patterns as a rapid triage:
 The AAO has repeatedly dismissed petitions in 2024-2025 where the proposed
 endeavor was implementation rather than innovation. This is now a top-tier
 failure mode alongside Pattern A (Occupation ≠ Endeavor).
+
+**Pattern E — USCIS Policy Manual Explicit Exclusions (Jan 2025 update):**
+> Does this endeavor fall into a category the USCIS Policy Manual
+> explicitly identifies as insufficient for Prong 1?
+- FAIL: Classroom teaching without broader field-wide implications
+- FAIL: Mere occupation shortage claims as basis for national importance
+- FAIL: Consulting in a shortage occupation (standing alone)
+- FAIL: General business owner assertions based solely on job creation
+- FAIL: Benefits limited to specific employers with no broader impact
+- FAIL: Startup without detailed national impact explanation
+- PASS: Endeavor goes beyond these exclusions with specific national-scale impact
+
+If any of these apply, the endeavor **must** be reframed before proceeding.
+These are not judgment calls — they are explicit USCIS exclusions.
 
 Score each: ✅ Pass / ⚠️ Weak / ❌ Fail
 
@@ -162,8 +184,10 @@ Do not draft without them. One question at a time — don't overwhelm.
   Medicare costs → freeing resources for underserved populations nationwide."
 - While quantifiable economic impact is not strictly required by Dhanasar,
   providing such evidence is increasingly treated as a **critical positive
-  factor** in adjudication. In the current ~54% approval rate environment,
-  petitions without quantifiable outcomes face substantially higher RFE risk.
+  factor** in adjudication. In the FY 2024-2025 environment (43-67%
+  approval rates, down from 80%+), petitions without quantifiable outcomes
+  face substantially higher RFE risk. Officers now demand concrete
+  U.S.-focused outcomes over abstract societal benefit claims.
 
 **Ingredient 6 — The substitutability answer**
 > "Why you specifically? What do you bring to this that a qualified peer at

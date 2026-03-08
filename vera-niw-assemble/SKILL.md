@@ -11,7 +11,7 @@ description: >
   wants to assemble the final petition, asks to "build my NIW petition letter",
   asks to "generate the final petition document", wants to combine pillar outputs
   into a single Word file, or provides Google Scholar data and wants it integrated
-  into the petition. Part of the NIW Petition Skill System.
+  into the petition. Part of the NIW Petition Skill System v2.0 (updated March 2026).
 ---
 
 # Vera NIW Assemble

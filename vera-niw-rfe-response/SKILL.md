@@ -11,7 +11,7 @@ description: >
   mentions "RFE response", "request for evidence", "USCIS asked for more
   evidence", "how do I respond to my NIW RFE", needs a point-by-point rebuttal,
   or asks "what should I include in my RFE response". Part of the NIW Petition
-  Skill System v1.0.
+  Skill System v2.0 (updated March 2026).
 ---
 
 # Vera NIW RFE Response
@@ -495,5 +495,47 @@ Run these five self-tests before finalizing:
 | Generate the original petition | vera-niw-endeavor + vera-niw-pillar + vera-niw-assemble |
 | Draft recommendation letters | vera-niw-recommendation |
 | Post-draft review | vera-niw-pl-review |
+| Entrepreneur-specific petition | vera-niw-entrepreneur |
 | Provide legal advice | Always recommend attorney review before filing |
+
+---
+
+## 2025-2026 RFE Trend Awareness
+
+**Emerging RFE patterns in the current adjudication environment:**
+
+1. **Intensified "national importance" scrutiny:** USCIS officers are demanding
+   more rigorous documentation of how proposed work serves national interests.
+   Abstract societal benefit claims are increasingly insufficient — concrete,
+   U.S.-focused outcomes with measurable metrics are expected.
+
+2. **Financial self-sufficiency scrutiny:** For entrepreneur and industry
+   petitioners, officers increasingly examine whether the endeavor is financially
+   viable and self-sustaining, not just technically meritorious.
+
+3. **Implementation vs. innovation as standalone denial ground:** The AAO has
+   elevated this from a weakness to a primary denial reason. RFE responses must
+   explicitly rebut any characterization of the work as implementation.
+
+4. **Occupation-level EB-2 gate challenges (Jan 2025):** RFEs now may challenge
+   whether the occupation itself requires a bachelor's degree for standard entry,
+   separate from the petitioner's own credentials. Rebuttal should cite O*NET
+   data, BLS Occupational Outlook Handbook, and industry standards.
+
+5. **Experience-specialty mismatch challenges (Jan 2025):** RFEs may challenge
+   whether post-bachelor's experience is in the same specialty as the endeavor.
+   Rebuttal should document clear continuity between education, experience, and
+   proposed endeavor.
+
+6. **Prong 3 as standalone denial trigger:** The balance test is increasingly
+   cited as a separate, independent ground for denial — not just a weakness.
+   RFE responses should address all three USCIS Policy Manual Prong 3 factors:
+   (1) impracticality of labor certification, (2) benefit despite available
+   U.S. workers, (3) urgency of national interest.
+
+7. **Administration priority alignment:** Frame RFE responses to align with
+   current administration priorities where applicable (domestic manufacturing,
+   energy independence, national security, defense technology, supply chain
+   independence). The Dhanasar framework is administration-agnostic but
+   "national importance" framing is inherently policy-sensitive.
 

@@ -17,6 +17,7 @@ description: >
 
   Use even if the user only shares an excerpt or says they want "general
   feedback" — this skill is the right tool whenever NIW documents are present.
+  Part of the NIW Petition Skill System v2.0 (updated March 2026).
 ---
 
 # Vera NIW PL Review
@@ -627,12 +628,13 @@ Do not pad. If a section is adequate, say so in one sentence and move on.
     contribution *now*, not after a PERM process? CET-aligned fields,
     time-sensitive federal programs, and emerging threats carry urgency
     arguments. Mature, stable fields do not.
-18. **2025 approval rate calibration.** NIW approval rates have dropped to
-    approximately 54% in 2025 (down from higher rates in prior years), while
-    EB-1A rates remain more stable at ~74%. Calibrate severity accordingly —
-    what would have been BORDERLINE in prior years may now be DEFICIENT.
-    The heightened scrutiny environment means marginal cases are more likely
-    to receive RFEs or denials.
+18. **2025-2026 approval rate calibration.** NIW approval rates crashed from
+    80% (FY 2023) to 43% (FY 2024), with FY 2025 oscillating 54-67% by
+    quarter. Petition volume surged 190% (22K→63.5K). STEM applicants
+    maintain ~90% approval; non-STEM faces 40-60% denial. Calibrate
+    severity accordingly — what would have been BORDERLINE in prior years
+    is now DEFICIENT. The heightened scrutiny environment means marginal
+    cases are substantially more likely to receive RFEs or denials.
 19. **Innovation vs. Implementation (Pattern I).** The AAO has made the
     implementation-vs-innovation distinction a top-tier rejection ground.
     Any petition that describes deploying existing technology without
@@ -642,3 +644,27 @@ Do not pad. If a section is adequate, say so in one sentence and move on.
     language that inadvertently invites EB-1A standard application. This is
     a preventable failure — preemptive Dhanasar framing costs nothing and
     reduces misapplication risk significantly.
+21. **Occupation-level EB-2 gate (Jan 2025 policy update).** Verify the
+    occupation underlying the endeavor requires at least a bachelor's degree
+    for **standard entry** — not just for this petitioner. USCIS now
+    explicitly reviews occupation requirements (e.g., RN with PhD fails if
+    standard RN doesn't require bachelor's; engineer starting bakery fails).
+    Also verify experience-specialty match: 5-year experience must be in the
+    **same specialty** as the endeavor.
+22. **Prong 1 explicit exclusions (USCIS Policy Manual).** Check whether the
+    endeavor falls into any category the USCIS Policy Manual identifies as
+    insufficient: classroom teaching (without field implications), occupation
+    shortage claims, consulting in shortage occupation, general job creation
+    assertions, benefits limited to specific employers, or startup without
+    detailed national impact explanation. Flag as DEFICIENT if any apply.
+23. **Government agency letter opportunity.** If the petition lacks government
+    agency support letters and the endeavor touches a federal priority area,
+    flag as IMPROVABLE. Government/quasi-government letters (including FFRDCs)
+    are "helpful evidence" relevant to all three prongs per the USCIS Policy
+    Manual, and STEM + government letter creates "especially weighty" Prong 3
+    benefit.
+24. **Entrepreneur-specific review.** If the petitioner is an entrepreneur or
+    business founder, apply the USCIS Policy Manual's entrepreneur framework:
+    verify ownership interest + central role, reject industry-level importance
+    claims, verify specific national impact (not just job creation), check for
+    consulting-in-shortage-occupation trap.

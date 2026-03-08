@@ -16,7 +16,7 @@ description: >
   definitions and wants to draft NIW petition content, asks to write NIW
   pillar content, wants to generate argument sections for a specific pillar,
   or is building toward a full I-140 petition letter. Part of the NIW
-  Petition Skill System.
+  Petition Skill System v2.0 (updated March 2026).
 ---
 
 # NIW Pillar Content Generator
@@ -174,13 +174,32 @@ Generate only sub-sections that apply. Always include at least 2–3.
   If the petitioner is a postdoc or early-career researcher, frame their
   record of success as demonstrating emerging leadership, not just potential.
 
-#### 3.4 Endorsement by Independent Experts
+#### 3.4 STEM-Specific Positive Factor (USCIS Policy Manual)
+
+**Include this sub-section if the petitioner holds an advanced STEM degree.**
+
+Per the USCIS Policy Manual, an advanced STEM degree — especially a PhD — in
+a field tied to the proposed endeavor and related to critical/emerging
+technology constitutes an **"especially positive factor"** for Prong 2,
+considered alongside other evidence.
+
+- State the specific STEM degree and its connection to the endeavor
+- Name the critical/emerging technology area (reference NSTC/White House lists)
+- Note that doctoral dissertations provide "scientific knowledge in narrow
+  STEM area since concentration on particularized subject matter"
+- Even theoretical mathematics or physics can qualify if the proposed endeavor
+  furthers U.S. competitiveness or national security
+
+This factor is codified in USCIS policy guidance (not executive order) and
+remains in effect regardless of administration changes.
+
+#### 3.5 Endorsement by Independent Experts
 - For each: full name, title, institution, why credible for THIS pillar.
 - Include a specific 1–3 sentence quote that addresses this pillar directly.
 - Explain why the endorsement carries weight.
 - Minimum 2 endorsers. At least one academic, one industry/regulatory.
 
-#### 3.5 Documented Interest from U.S. Entities (2024-2025 AAO emphasis)
+#### 3.6 Documented Interest from U.S. Entities (2024-2025 AAO emphasis)
 - Letters of interest from leading U.S. organizations demonstrating demand
   for the petitioner's specific work — among the strongest Prong 2 evidence
   per recent AAO decisions.
@@ -230,9 +249,26 @@ Each pillar has different evidence; each Prong 3 argument is therefore distinct.
 NIW_Assemble will synthesize all three into a unified conclusion — but each pillar
 must stand on its own here.
 
+**USCIS Policy Manual — Three Explicit Prong 3 Factors:**
+The USCIS Policy Manual identifies three distinct factors that support the waiver.
+Structure the argument to address each applicable factor:
+1. **Impracticality of labor certification** — why PERM is inadequate for this work
+2. **Benefit despite available U.S. workers** — why this petitioner's contribution
+   benefits the U.S. even when other capable workers exist
+3. **Urgency of national interest** — time-sensitive circumstances warranting bypass
+
 **Hard rule:** Never argue labor shortage as the primary justification. USCIS
-explicitly rejects this. The argument must center on the petitioner's specific,
-indispensable contribution that cannot be replicated through a standard PERM posting.
+explicitly rejects "mere national labor shortage in occupation" (standing alone).
+The argument must center on the petitioner's specific, indispensable contribution
+that cannot be replicated through a standard PERM posting.
+
+**STEM-specific Prong 3 boost (USCIS Policy Manual):**
+The combination of (1) advanced STEM degree (especially PhD), (2) work furthering
+critical/emerging technology, and (3) well-positioned to advance STEM endeavor of
+national importance creates an **"especially weighty"** benefit. This is
+"especially weighty where endeavor supports national security or enhances U.S.
+economic competitiveness" or is supported by government agency letters. If
+applicable, invoke this explicitly.
 
 #### 5.1 Impracticality of Labor Certification for This Work
 
@@ -349,6 +385,28 @@ framing is the signal that a letter is substantive, not boilerplate.
 
 Provide 3 recommender profiles: 1 senior academic, 1 industry practitioner, 1 government/regulatory/policy.
 At least 1 must have no reporting relationship to the petitioner.
+
+### Government Agency Letters (USCIS Policy Manual — additional guidance)
+
+**While not required, government agency letters are among the strongest NIW evidence.**
+The USCIS Policy Manual explicitly identifies letters from interested U.S. government
+or quasi-governmental entities (including FFRDCs — federally funded R&D centers like
+national laboratories) as "helpful evidence" relevant to **all three prongs**:
+
+- **Prong 1:** Agency demonstrates expertise in proposed endeavor, establishes STEM
+  endeavor advances critical/emerging technology, shows endeavor important for U.S.
+  technological prominence
+- **Prong 2:** Detailed letters explaining how beneficiary is well-positioned;
+  "particularly valuable when demonstrating positioning"
+- **Prong 3:** Explains particular urgency, details U.S. benefits despite available
+  workers; STEM + government letter = "especially weighty" benefit
+
+**If petitioner has access to government or quasi-government contacts:**
+Actively recommend obtaining such letters. Guide the petitioner to:
+- Identify relevant federal agencies (NSF, NIH, DOE, DOD, NIST, etc.)
+- Identify relevant FFRDCs (national labs, research centers)
+- Frame the request in terms of the agency's own mission and priorities
+- The letter should explain how the petitioner's work advances the agency's goals
 
 ---
 
